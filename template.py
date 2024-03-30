@@ -80,5 +80,5 @@ while True:
         data = input("Введите значение: ")
         print(search_user(file, data))
     elif mode == 4:
-        num_row = int(input("Введите номер строки для переноса в другой файл"))
+        num_row = int(input("Введите номер строки для переноса в другой файл: "))
         transfer_data(file, file_2, num_row - 1)
